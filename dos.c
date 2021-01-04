@@ -6,10 +6,12 @@
 int main(){
 
 	char *ip[16]; //ip a conectarse
-	printf("ip a conectarse: ");
+	printf("ip a atacar: ");
 	scanf("%s",ip);
-
-	int port = 8000;
+	printf("\n");
+	int port;
+	scanf("%d", port)
+	printf("puerto a conectarse: ");
 
 	for (int i =0; i<=3;i++){
 		int id = fork();
